@@ -1,0 +1,15 @@
+{
+  "angular": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-webdemo-angular-125608-authRole",
+      "UnauthRoleArn": "arn:aws:iam::650486595647:role/amplify-webdemo-angular-125608-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::650486595647:role/amplify-webdemo-angular-125608-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-webdemo-angular-125608-deployment",
+      "UnauthRoleName": "amplify-webdemo-angular-125608-unauthRole",
+      "StackName": "amplify-webdemo-angular-125608",
+      "StackId": "arn:aws:cloudformation:us-east-1:650486595647:stack/amplify-webdemo-angular-125608/0bef0db0-34d0-11eb-ab69-0e09773e6f3f",
+      "AmplifyAppId": "d1ydyghicblnas"
+    }
+  }
+}

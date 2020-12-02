@@ -1,0 +1,22 @@
+<table class="table">
+    <thead class="thead-per">
+        <tr>
+            <th>#</th>
+            <th>GrupMaterials</th>
+            <th>AUTOMOTRIZ_VEHICULOS</th>
+            <th>INDUSTRIAL_CAMIONES</th>
+            <th>INDUSTRIAL_GENERAL</th>
+            <th>Grand_Total</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let i of data; let in = index">
+            <td>{{in}}</td>
+            <td>{{i.GrupMaterials}}</td>
+            <td>{{i.AUTOMOTRIZ_VEHICULOS}}</td>
+            <td>{{i.INDUSTRIAL_CAMIONES}}</td>
+            <td>{{i.INDUSTRIAL_GENERAL}}</td>
+            <td>{{i.Grand_Total}}</td>
+        </tr>
+    </tbody>
+</table>

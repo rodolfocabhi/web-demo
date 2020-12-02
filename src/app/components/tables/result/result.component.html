@@ -1,0 +1,20 @@
+<table class="table">
+    <thead class="thead-per">
+        <tr>
+            <th>#</th>
+            <th>Name</th>
+            <th>Date</th>
+            <th>Quantity</th>
+            <th>Descargar</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let i of data; let in = index">
+            <td>{{in}}</td>
+            <td>{{i.Name}}</td>
+            <td>{{i.Date}}</td>
+            <td>{{i.Quantity}}</td>
+            <td>{{i.Descargar}}</td>
+        </tr>
+    </tbody>
+</table>

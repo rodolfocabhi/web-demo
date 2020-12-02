@@ -1,0 +1,20 @@
+<table class="table">
+    <thead class="thead-per">
+        <tr>
+            <th>#</th>
+            <th>Customer</th>
+            <th>TotalFC</th>
+            <th>Total</th>
+            <th>TotalPor</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let i of data; let in = index">
+            <td>{{in}}</td>
+            <td>{{i.Customer}}</td>
+            <td>{{i.TotalFC}}</td>
+            <td>{{i.Total}}</td>
+            <td>{{i.TotalPor}}</td>
+        </tr>
+    </tbody>
+</table>

@@ -1,0 +1,14 @@
+<div class="d-flex" id="wrapper">
+<app-sidebar></app-sidebar>
+<div id="page-content-wrapper">
+  <app-navbar></app-navbar>
+  <amplify-authenticator>
+    <div>
+      <router-outlet></router-outlet>
+      <amplify-sign-out></amplify-sign-out>
+    </div>
+  </amplify-authenticator>
+
+</div>
+</div>
+

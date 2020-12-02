@@ -1,0 +1,18 @@
+<table class="table">
+    <thead class="thead-per">
+        <tr>
+            <th>#</th>
+            <th>ItemCode</th>
+            <th>Descripción</th>
+            <th>Cantidad</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let i of data; let in = index">
+            <td>{{in}}</td>
+            <td>{{i.ItemCode}}</td>
+            <td>{{i.Dscription}}</td>
+            <td>{{i.Quantity}}</td>
+        </tr>
+    </tbody>
+</table>
